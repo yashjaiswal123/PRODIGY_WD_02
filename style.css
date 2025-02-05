@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #1a0c0c;
+}
+
+.stopwatch {
+    text-align: center;
+    background: #d17d1d;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#time {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #4CAF50;
+    color: rgb(252, 251, 251);
+    border-radius: 5px;
+}
+
+button:disabled {
+    background-color: #9a0d0d;
+    cursor: not-allowed;
+}
+
+#laps {
+    margin-top: 20px;
+    text-align: left;
+}
